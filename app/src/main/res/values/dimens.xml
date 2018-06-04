@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="fab_margin">64dp</dimen>
+    <dimen name="diag">12dp</dimen>
+</resources>

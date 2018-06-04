@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/customerName"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone: "/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/customerPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="phone" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: "/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/customerMail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="email" />
+    </LinearLayout>
+
+        <android.support.v7.widget.ButtonBarLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnMail"
+                android:layout_width="wrap_content"
+                style="@style/Base.Widget.AppCompat.ActionButton"
+                android:textColor="#388e3c"
+                android:layout_height="match_parent"
+                android:text="Mail" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnCDelete"
+                android:layout_width="wrap_content"
+                style="@style/Base.Widget.AppCompat.ActionButton"
+                android:textColor="#b71c1c"
+                android:layout_height="match_parent"
+                android:text="Delete" />
+        </android.support.v7.widget.ButtonBarLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

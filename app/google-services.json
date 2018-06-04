@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "548896482316",
+    "firebase_url": "https://ventasapp-bc71e.firebaseio.com",
+    "project_id": "ventasapp-bc71e",
+    "storage_bucket": "ventasapp-bc71e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548896482316:android:285937dcae300b4f",
+        "android_client_info": {
+          "package_name": "pythonteam.com.ventasapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548896482316-3onk3raf3aqtafgq7jfb5lfpebis5h0f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pythonteam.com.ventasapp",
+            "certificate_hash": "5a4953935e1949fa901d0c54aa4df33f9ecb345f"
+          }
+        },
+        {
+          "client_id": "548896482316-po6jo5mbuubaob26veuufrr5jcm9b7dd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_f5j6P_94vrUC3vLW6lQ3u7Iwr1P_9NA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548896482316-po6jo5mbuubaob26veuufrr5jcm9b7dd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.python.cresh.redsocial.MainActivity">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_shopping_cart_24"
+        android:orderInCategory="0"
+        android:title="Ordenes" />
+    <item
+        android:id="@+id/notifications"
+        android:icon="@drawable/ic_user"
+        android:orderInCategory="1"
+        android:title="Clientes" />
+    <item
+        android:id="@+id/user"
+        android:icon="@drawable/baseline_store_mall_directory_24"
+        android:orderInCategory="2"
+        android:title="Productos" />
+    <item
+        android:id="@+id/maps"
+        android:icon="@drawable/baseline_map_24"
+        android:orderInCategory="3"
+        android:title="Rutas" />
+</menu>

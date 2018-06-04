@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pythonteam.com.ventasapp.MainActivity">
+    <item
+        android:id="@+id/action_route"
+        android:orderInCategory="100"
+        android:title="Mi ruta"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_order"
+        android:orderInCategory="100"
+        android:title="Carrito"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="Acerca de"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never" />
+
+</menu>
