@@ -24,11 +24,6 @@ public class CartJob extends Job {
     }
 
     @Override
-    public void onAdded() {
-
-    }
-
-    @Override
     public void onRun() throws Throwable {
         Retrofits.get().createOrder(order).enqueue(new Callback<Boolean>() {
             @Override
@@ -38,7 +33,6 @@ public class CartJob extends Job {
 
             @Override
             public void onFailure(Call<Boolean> call, Throwable t) {
-
             }
         });
     }
@@ -52,4 +46,8 @@ public class CartJob extends Job {
     protected RetryConstraint shouldReRunOnThrowable(@NonNull Throwable throwable, int runCount, int maxRunCount) {
         return null;
     }
+
+
+    @Override
+    public void onAdded() {}
 }

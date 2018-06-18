@@ -34,7 +34,7 @@ public class Retrofits {
     {
         File httpCacheDirectory = new File(context.getCacheDir(), "httpCache");
         Cache cache = new Cache(httpCacheDirectory, 30 * 1024 * 1024);
-        String url = "http://192.168.0.14:8080/ventas/api/";
+        String url = "http://192.168.100.86:8080/ventas/api/";
         if(mRetrofits == null) {
 
             GsonBuilder builder = new GsonBuilder();
